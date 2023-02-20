@@ -12,7 +12,8 @@
   
   * {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     box-sizing: border-box;
     outline: none;
@@ -102,6 +103,11 @@
     letter-spacing: 3px;
     font-weight: bold;
     margin-left: 3.8rem;
+}
+
+.navbar-brand img{
+    width: 13rem;
+    height: 4rem;
 }
 .navbar-toggler{
     display: block;
@@ -220,10 +226,10 @@
 
  .home .box img{
     border-radius: .5rem;
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     object-fit: cover;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
  }
  
  .home .box .flex{
@@ -240,6 +246,12 @@
     color: var(--sub-color);
     text-transform: capitalize;
  }
+
+  .swiper{
+    width: 100%;
+ }
+
+ 
  
  .swiper-button-prev{
     left: 0%;
@@ -277,10 +289,8 @@
   
 .logocontainer{
     min-height: 150px;
-    /* display: grid; */
     place-items: center;
     max-width: 100%;
-    /* overflow-x: hidden; */
 }
 
 .logo-slider{
@@ -288,7 +298,6 @@
     margin: auto;
     position: relative;
     width: 100%;
-    /* display: grid; */
 }
 
 .logo-slider-track{
@@ -308,12 +317,15 @@
 
 
 .logocontainer{
-    margin-bottom: 6rem;
-    padding-bottom: 6rem;
+    margin-bottom: .5rem;
+    
+    margin-top: .5rem;
+
+    /* padding-bottom: 6rem; */
 }
 .logo-slide {
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 230px;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -418,6 +430,7 @@
     height: 40rem;
     box-shadow: rgba(0, 0, 0, 0.2);
     border-radius: 4rem 0rem 4rem 0rem;
+    object-fit: cover;
 }
 
 
@@ -468,12 +481,14 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: var(--main-color);
-    margin:  1rem 2rem ;
+    margin:  1.5rem 0rem ;
+    margin-left:  2rem ;
+
 }
 
 .headpara {
     font-size: 2rem;
-    margin: 1rem 2rem;
+   margin-left: 2rem;
 }
 
 
@@ -649,14 +664,13 @@
     color: white;
 
  }
+/* 
 
-
- .footer .box-container2{
-    /* display: grid;
+  .footer .box-container2{
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
-    align-items: flex-start; */
-    padding-bottom: 3rem;
+   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -667,38 +681,56 @@
     align-items: center;
     justify-content: center;
     height: 25rem;
-    flex: 1 1 33rem;
+    flex: 1 1 25rem;
+    padding: 2rem
+ }  */
+
+ .box-container3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    align-items: flex-start;
+
  }
 
 
- .footer .box-container2 .box a{
+  .box-container3 .box {
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .footer .box-container3 .box a{
     display: block;
     font-size: 1.8rem;
     padding: 1rem 0;
     color: white;
  }
- 
- .footer .box-container2 .box a:hover{
+  
+ .footer .box-container3 .box a:hover{
 
     color: #8c9790;
  }
  
- .footer .box-container2 .box:first-child i{
+  .footer .box-container3 .box:first-child i{
     margin-right: 1.7rem;
  }
+
  
- .footer .box-container2 .box:nth-child(2){
-    text-align: center;
+.footer .box-container3 .box:nth-child(2){
+    margin-right: 1.7rem;
+
  }
  
- .footer .box-container2 .box:last-child{
+ .footer .box-container3 .box:last-child{
     text-align:right;
  }
- 
- .footer .box-container2 .box:last-child i{
+  
+ .footer .box-container3 .box:last-child i{
     margin-left: 1.7rem;
- }
- 
+ } 
+  
  .footer .credit{
     border-radius: .5rem;
     padding: 2rem;
@@ -761,13 +793,6 @@ html{
 
 
 
-
-
-
-
-
-
-
   
 @media (max-width:991px){
 
@@ -789,10 +814,12 @@ html{
     .swiper-button-next,
     .swiper-button-prev{
        top: 35%;
+       width: 1rem;
     }
 
     .main-wrapper img{
         width: 25rem;
+        object-fit: cover;
     }
 
     .homeaboutcontainer{
@@ -869,6 +896,31 @@ html{
     }
     .header{
         display: none;
+    }
+
+    .headservices{
+        margin: .5rem 2rem;
+    }
+
+    .headservices a{
+        margin-right: 1rem;
+        padding-right: 1rem;
+    }
+
+    .reviews .headpara{
+        margin: 1rem;
+        padding: 0rem;
+    }
+
+    .navbar-brand{
+        margin-left: 0rem;
+    }
+    .navbar-brand img{
+        height: 5rem;
+
+    }
+    .navbar-toggler{
+       padding: 1rem 1.2rem;
     }
  
  }
