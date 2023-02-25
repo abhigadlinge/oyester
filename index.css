@@ -659,6 +659,8 @@
     font-size: 1.5rem;
  }
 
+
+
  .footer{
     padding: 15rem 4%;
     padding-bottom: 3rem;
@@ -740,10 +742,6 @@
     font-size: 2rem;
  }
  
- .reviews .head , .reviews .headpara{
-    margin-left: 2rem;
-    padding-left: 4rem;
- }
 
 
   .contactbox{
@@ -799,6 +797,17 @@ p{
 .contactbox p , .reviews p{
     text-align: center;
 }
+.reviews .head , .reviews .headpara{
+    margin-left: 2rem;
+    padding-left: 4rem;
+ }
+
+ .reviews .headpara p{
+    text-align: left;
+ }
+
+
+
 
 
 
@@ -916,10 +925,7 @@ p{
         padding-right: 1rem;
     }
 
-    .reviews .headpara{
-        margin: 1rem;
-        padding: 0rem;
-    }
+  
 
     .navbar-brand{
         margin-left: 0rem;
