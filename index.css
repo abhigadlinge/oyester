@@ -475,7 +475,15 @@
       box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.4);
   }
   
+  
+  .contactbox a{
+    color: white;
+  }
 
+  .contactbox a:hover{
+    color: var(--main-color);
+  }
+  
 
 
 .head{
@@ -497,7 +505,7 @@
  .box-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 1.5rem;
     padding:  2rem;
@@ -508,35 +516,15 @@
     border-radius: .8rem;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
     margin-top: 2rem;
+    padding: 1rem;
+    margin: 1rem;
   }
   
-  .box-container .box:hover .image h3 {
-    left: 1.5rem;
-  }
+ 
+ 
+
   
- .box-container .box:hover .image img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  
- .box-container .box .image {
-    position: relative;
-    height: 20rem;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-   .box-container .box .image h3 {
-    position: absolute;
-    z-index: 10;
-    top: 1rem;
-    left: -100%;
-    border-radius: .5rem;
-    padding: .5rem 1rem;
-    background: #fff;
-    color: #130f40;
-    font-size: 1.5rem;
-  }
+ 
   
  .box-container .box .image h3 i {
     padding-right: .5rem;
@@ -566,11 +554,15 @@
     color: #130f40;
   }
   
-  .box-container .box .content p {
-    font-size: 1.4rem;
-    color: #666;
-    padding: 1rem 0;
-    line-height: 2;
+  .box-container .box .content li {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    align-items: justify;
+    line-height: 2.5rem;
+  }
+
+  .box-container .box .content ul{
+    margin-top: 2.5rem;
   }
   
   .box-container .btn {
