@@ -460,7 +460,9 @@
     margin-bottom: 2rem;
   }
 
-  
+  .contactbox .btn:hover a{
+    color: var(--main-color);
+  }
 
   .container  li{
     font-size: 1.7rem; 

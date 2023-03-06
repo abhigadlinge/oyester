@@ -471,6 +471,26 @@
 
 }
 
+.contactbox .btn:hover a{
+    color: var(--main-color);
+}
+
+.journey-left li {
+    list-style-type: none;
+}
+
+/* .year {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    color: white;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    border: .2rem solid rgb(14, 149, 202);
+} */
+
 .journey-bar{
     margin: 0rem 3rem;
 }
@@ -622,8 +642,11 @@
     height: 20rem;
     width:20rem;
     border-radius: 3rem 0rem 3rem 0rem;
+    /* border-radius: 50%; */
+    box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, 0.3);
     border:5px solid #eee;
     object-fit: cover;
+    margin-bottom: 2rem;
    
   }
   

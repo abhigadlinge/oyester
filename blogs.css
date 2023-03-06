@@ -56,17 +56,7 @@
 
 
 
-.homeheader img{
-  width: 60%;
-  margin-top: -3rem;
-  margin: 0 auto;
-  text-align: center;
-}
 
-.homeheader{
-  text-align: center;
-  justify-content: center;
-}
 
 
 
@@ -312,7 +302,6 @@
     padding-bottom: 3rem;
     background-color: var(--sub-color);
     color: white;
-    width: 100%;
 
  }
 
@@ -413,174 +402,19 @@
   }
 
 
-  
-    .homeabout{
-        display: flex;
-        justify-content: space-between;
-        gap: 5rem;
-        /* padding-top: 8rem; */
-        margin: 0 auto;
-        width: 84%;
-        overflow-x: hidden;
-        flex-wrap: wrap;
-        box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.4);
-        /* border: 1rem solid #ddd; */
-        padding: 2rem 4rem 2rem 2rem  ;
-        margin-top: 2rem;
-        border-radius: .5rem;
-    }
-  
-  
-  .homecontent{
-      flex: 1 1 40rem;
-      justify-content: center;
-      margin-top: 5rem;
-  }
-  .homeimage{
-    flex:  1  1 40rem;
 
-  }
-  
-  
-  .homeabout img{
-      width: 45rem;
-      height: 40rem;
-      box-shadow: rgba(0, 0, 0, 0.2);
-      border-radius: 4rem 0rem 4rem 0rem;
-      object-fit: cover;
-  }
-  
-  
 
   
   
-  
-  
-  
-  form .inputBox{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  
- 
+  .contactbox a{
+    color: white;
   }
-  
-   form textarea , .inputBox input{
-    padding:1rem;
-    margin:1rem 0;
-    font-size: 1.7rem;
-    color:#333;
-    text-transform: none;
-    border:.2rem solid rgba(0,0,0,.3);
-    border-radius: .5rem;
-    width:49%;
-  }
-  
-  form textarea{
-    width:100%;
-    border:.2rem solid rgba(0,0,0,.3);
-    border-radius: .5rem;
-    resize: none;
-    height:15rem;
-    margin: 1.5rem 0rem;
-    padding: .2rem;
-    padding:1rem;
-    font-size: 1.7rem;
-    margin:1rem 0;
-  }
-  
- 
-  .head h1{
-    font-size: 5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-shadow: .5rem 1rem 1rem rgb(216, 214, 214);
-    margin-bottom: 2rem;
-    /* padding-top: 8rem ; */
-    text-align: center;
+
+  .contactbox a:hover{
     color: var(--main-color);
-    font-weight: bold;
-    margin-top: -10rem;
-  }
-
-  
-
-  .head  p{
-    font-size: 1.7rem; 
-    margin-bottom: 1rem;
-    align-items: justify;
-    line-height: 2.5rem;
-    text-align: center
-
-  }
-
-
-
-  .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    width: 84%;
-    margin: 0 auto;
-    margin-top: 10rem;
-
   }
   
-  .box-container .box{
-    text-align: center;
-    border:1px solid rgb(255, 255, 255);
-    padding:2rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
-    border-radius: .5rem;
-    flex:1 1 30rem;
-    background:#eee;
-    height: 30rem;
-  }
-
- 
-
- .box-container .box img{
-    width: 15rem;
-    border-radius: 50%;
-    margin-top: -8rem;
-    border:5px solid #eee;
-    object-fit: cover;
    
-  }
-
-  /* .box2{
-    margin-top: 8rem;
-  }
-
-  .box3{
-    margin-top: 16rem;
-  }
-   .box4{
-     margin-top: 24rem;
-   } */
-
-
-
-   .box-container h2{
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    color: var(--main-color);
-   }
-
-   h3{
-    font-size: 2rem;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-   }
-
-
-
-
-
-
 @media (max-width:991px){
 
     html{
@@ -614,7 +448,10 @@
         margin-top: 2rem;
     }
     
-   
+    .homeabout{
+        gap: 2rem;
+    }
+  
 
     .main-wrapper img{
         width: 25rem;
@@ -631,26 +468,7 @@
     .navbar-toggler{
        padding: 1rem 1.2rem;
     }
-  
-    .box2{
-      margin-top: 0rem;
-    }
-  
-    .box3{
-      margin-top: 0rem;
-    }
-     .box4{
-       margin-top: 0rem;
-     }
-  
-     .box-container{
-      height: 0rem;
-      margin-bottom: 140rem;
-     }
 
-     .box{
-      margin-bottom: 2rem;
-     }
     
   
    

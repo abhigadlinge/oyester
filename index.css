@@ -3,7 +3,7 @@
 
 
 :root {
-    --main-color:#1d237a;
+    --main-color:#11458A;
     /* --sub-color:#000046; */
     --sub-color:#12528e;
     --white:#fff;
@@ -402,7 +402,7 @@
 .homecontent{
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
     flex: 1 1 40rem;
 }
 .homeabout .homecontent h2{
@@ -454,6 +454,8 @@
     margin-top: 5rem;
     border: .9rem solid whitesmoke;
     padding: 1.2rem;
+    justify-content: center;
+    text-align: center;
     margin: 1.7rem;
   }
   
@@ -517,10 +519,11 @@
   
   .box-container .box {
     border-radius: .8rem;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
     margin-top: 2rem;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1rem ; 
+    justify-content: baseline;
+     margin-right: 2rem;
   }
   
  
@@ -611,7 +614,9 @@
 
 
 
-
+ .contactbox .btn:hover a{
+    color: var(--main-color);
+ }
 
 
 
@@ -932,6 +937,10 @@ p{
     .navbar-toggler{
        padding: 1rem 1.2rem;
     }
+
+    .box-container .box{
+        margin-right: 0rem;
+    }
  
  }
 
@@ -1059,6 +1068,12 @@ p{
         top: 100%;
         background: #f8f8f8;
     }
+
+    .sub-menu-item i{
+        margin-right: 1rem;
+        color: var(--main-color);
+    }
+
     .navbar-nav > li:hover .sub-menu{
         display: grid!important;
         grid-template-columns: repeat(4, 1fr);
