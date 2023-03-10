@@ -401,126 +401,125 @@
     
   }
 
+
+
+
+/* homeabout section start  */
+
+.container{
+    padding: 5rem 8%;
+    padding-top: 7rem;
    
-  .header {
-    width: 100%;
-    text-align: center;
-    padding-top: 13rem;
-  }
+
+}
+
+.homeabout{
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  flex-wrap: wrap;
+}
 
 
-  .header h2{
-    font-size: 5rem;
+.homecontent{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex: 1 1 40rem;
+}
+.homeabout .homecontent h2{
+    font-size: 3rem;
     color: var(--main-color);
-    line-height: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1.5rem;
+}
+
+
+.homecontent{
+    flex: 1 1 40rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.homecontent h1 {
+    font-size: 4rem;
+    color: var(--main-color);
+    line-height: 5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    
+    text-shadow: .5rem 1rem 1rem rgb(216, 214, 214);
+    margin-top: 8rem;
+
+}
+
+
+.homeabout img{
+    width: 45rem;
+    height: 40rem;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border-radius: 4rem 0rem 4rem 0rem;
+    object-fit: cover;
+}
+
+
+
+  .contactbox .btn:hover a{
+    color: var(--main-color);
   }
 
-  .header p{
-    font-size: 2rem;
-    line-height: 2rem;
+  .container  li{
+    font-size: 1.7rem; 
+    margin-bottom: 1rem;
+    align-items: justify;
+    line-height: 2.5rem;
+  }
+  
+  .content {
+    margin-top: 7rem;
+    width: 84%;
+    margin: 0 auto;
+    text-align: justify;
+    justify-content:baseline;
+  }
+  
+  .content li{
+    font-size: 1.7rem; 
+    margin-bottom: 1rem;
+    align-items: justify;
+    line-height: 2.5rem;
+  }
+
+  .nextpage {
+    width: 84%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+
+  .nextpage i{
+    margin: 0rem .5rem;
+  }
+
+  .content p{
+    font-size: 1.7rem; 
+    margin-bottom: 1rem;
+    align-items: justify;
+    line-height: 2.5rem;
+  }
+
+  .content h3{
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    align-items: justify;
     font-weight: bold;
     margin-top: 4rem;
+    line-height: 2.5rem;
   }
 
-  
-  
-.blog .box-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+  ol,ul{
+    margin-left: 5rem;
   }
-  
-  .blog .box-container .box {
-    border-radius: .5rem;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
-    margin-top: 2rem;
-  }
-  
-  .blog .box-container .box:hover .image h3 {
-    left: 1.5rem;
-  }
-  
-  .blog .box-container .box:hover .image img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  
-  .blog .box-container .box .image {
-    position: relative;
-    height: 20rem;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-
-
-  .blog .box-container .box .image img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  
-  .blog .box-container .box .content {
-    padding: 2rem 1.5rem;
-    /* background: #f7f7f7; */
-  }
-  
-  .blog .box-container .box .content .tags {
-    padding-bottom: 1rem;
-  }
-  
-  .blog .box-container .box .content .tags a {
-    font-size: 1.5rem;
-  }
-  
-  .blog .box-container .box .content .tags a:hover {
-    color: rgb(68, 219, 219);
-  }
-  
-  /* .blog .box-container .box .content .tags a i {
-    color: var(--main-color);
-    padding-right: .5rem;
-  } */
-  
-  .blog .box-container .box .content h3 {
-    font-size: 2rem;
-    color: #130f40;
-    font-weight: bold;
-  }
-  
-  .blog .box-container .box .content p {
-    font-size: 1.5rem;
-    color: #666;
-    padding: 1rem 0;
-    line-height: 2;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
   .contactbox a{
     color: white;
   }
@@ -584,8 +583,14 @@
        padding: 1rem 1.2rem;
     }
 
-    
+    .content{
+        width: 90%;
+    }
   
+
+    .homecontent h1{
+        margin-top: 1rem;
+    }
    
  }
 
